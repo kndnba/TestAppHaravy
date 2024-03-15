@@ -18,7 +18,7 @@
         android:id="@+id/character_name_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Some text"
+        android:text="Name: "
         android:textSize="14sp"
         android:fontFamily="sans-serif-black"
         app:layout_constraintStart_toEndOf="@id/character_iv"
@@ -27,13 +27,25 @@
         android:layout_marginTop="10dp"/>
 
     <TextView
-        android:id="@+id/character_description_tv"
+        android:id="@+id/character_team_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Some text"
+        android:text="Team: "
         android:textSize="12sp"
         android:fontFamily="sans-serif"
         app:layout_constraintTop_toBottomOf="@id/character_name_tv"
+        app:layout_constraintStart_toEndOf="@id/character_iv"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/character_createdby_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created by: "
+        android:textSize="12sp"
+        android:fontFamily="sans-serif"
+        app:layout_constraintTop_toBottomOf="@id/character_team_tv"
         app:layout_constraintStart_toEndOf="@id/character_iv"
         android:layout_marginStart="10dp"
         android:layout_marginTop="10dp"/>
