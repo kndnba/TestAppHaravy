@@ -21,8 +21,8 @@ tasks:
    2.1) Create UI - 1h
    2.2) Create CharacterDetailsFragment - 1h
    2.3) Create CharacterDetailsViewModel - 2h
-
-5) Connect an API to app - 4 h
-6) Create character search mechanism - 4 h
+3) Attach navigation - 2 h
+4) Connect an API to app - 4 h
+5) Create character search mechanism - 4 h
 
    
